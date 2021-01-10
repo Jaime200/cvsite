@@ -1,0 +1,19 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+.hero__items{
+    margin: 30px;
+}
+
+.hero__item i {
+ margin-right: 5px;
+}
+
+.hero__item--info{
+    display: flex;
+    justify-content: space-between;
+}
