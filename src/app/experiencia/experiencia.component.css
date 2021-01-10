@@ -1,10 +1,15 @@
 .experiencia{
     
-    display:  flex;
+    display:  grid;
     align-items: center;
     justify-content: center;
     background: #fff; 
     flex-direction: column;
+}
+
+.experiencia h1 {
+    display: flex;
+    justify-content: center;
 }
 
 .experiencia__container{
