@@ -1,0 +1,39 @@
+.experiencia{
+    
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff; 
+    flex-direction: column;
+}
+
+.experiencia__container{
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.experiencia__items{
+    display: flex;
+    flex-direction: row;
+}
+
+.experiencia__item{
+    margin-top: 10px;
+}
+
+.experiencia__item i {
+    margin-right:5px;
+}
+
+.experiencia__items--left{
+    margin-right: 20px;
+}
+
+.experiencia__items--footer span {
+ color: white;
+}
