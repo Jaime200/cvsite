@@ -1,0 +1,27 @@
+.acerca__de{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.acerca__de h1 {
+    display: flex;
+    justify-content: center;
+}
+.acerca__container {
+    display: grid;
+    grid-template: auto / repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px ;
+}
+
+.acerca{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 2px #c1bcbc;
+    background: #fff;
+}
+
