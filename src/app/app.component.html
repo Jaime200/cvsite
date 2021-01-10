@@ -1,5 +1,11 @@
-<button (click)="saveDocx('cv')" >
-  Descargar
+<button *ngIf="!cargando" (click)="saveDocx('cv')" class="btn btn-danger btn-block" >
+  <i class="far fa-file-pdf"></i>
+  Descargar PDF
+</button>
+
+<button *ngIf="cargando"  class="btn btn-danger btn-block" >
+  <i class="far fa-file-pdf"></i>
+  Descargando espere por favor ...
 </button>
 
 <div class="main" id="cv">

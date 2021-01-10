@@ -9,9 +9,10 @@ import * as jsPDF from 'jspdf';
 export class AppComponent {
   title = 'cvJaime';
 
-
+  public cargando = false;
   saveDocx() {
     // Extraemos el
+    this.cargando = true;
     const DATA = document.getElementById('cv');
     const doc = new jsPDF.jsPDF('p', 'pt', 'a4');
     const options = {
@@ -21,7 +22,7 @@ export class AppComponent {
     html2canvas(DATA, options).then((canvas) => {
 
       const img = canvas.toDataURL('image/PNG');
-
+      
       // Add image Canvas to PDF
       const bufferX = 15;
       const bufferY = 15;
@@ -32,6 +33,7 @@ export class AppComponent {
       return doc;
     }).then((docResult) => {
       docResult.save(`JAIME_${new Date().toISOString()}.pdf`);
+      this.cargando = false
     });
   }
 
