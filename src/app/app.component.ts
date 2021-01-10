@@ -31,7 +31,7 @@ export class AppComponent {
       doc.addImage(img, 'PNG', bufferX, bufferY, pdfWidth, pdfHeight, undefined, 'FAST');
       return doc;
     }).then((docResult) => {
-      docResult.save(`${new Date().toISOString()}_tutorial.pdf`);
+      docResult.save(`JAIME_${new Date().toISOString()}.pdf`);
     });
   }
 
