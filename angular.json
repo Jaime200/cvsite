@@ -121,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "cvJaime"
+  "defaultProject": "cvJaime",
+  "cli": {
+    "analytics": false
+  }
 }
