@@ -7,6 +7,7 @@ import { HeroComponent } from './hero/hero.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 
 import { EstudioComponent } from './estudio/estudio.component';
+import { AcercaComponent } from './acerca/acerca.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,9 @@ import { EstudioComponent } from './estudio/estudio.component';
     HeroComponent,
     ExperienciaComponent,
     
-    EstudioComponent
+    EstudioComponent,
+    
+    AcercaComponent
   ],
   imports: [
     BrowserModule
