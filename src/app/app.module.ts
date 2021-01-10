@@ -6,12 +6,16 @@ import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero/hero.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 
+import { EstudioComponent } from './estudio/estudio.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HeroComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    
+    EstudioComponent
   ],
   imports: [
     BrowserModule
