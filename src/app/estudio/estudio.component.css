@@ -1,0 +1,13 @@
+.estudio{
+    
+    display:  grid;
+    align-items: center;
+    justify-content: center;
+    background: #fff; 
+    flex-direction: column;
+}
+
+.estudio h1 {
+    display: flex;
+    justify-content: center;
+}
